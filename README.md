@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the React TodoList App! This application is a simple yet powerful tool to help you manage your tasks efficiently. Built using React, it provides a clean and intuitive interface for adding, editing, and deleting tasks.
+Welcome to the React TodoList App! This application is designed to help you efficiently manage your tasks. Built using React, it offers a user-friendly interface for adding, editing, and deleting tasks.
 
 ## Features
 
@@ -12,20 +12,11 @@ Welcome to the React TodoList App! This application is a simple yet powerful too
 
 ## Getting Started
 
-Follow these steps to get the app up and running on your local machine:
+### Clone the Repository
 
-1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/react-todolist-app.git
 
-   ```bash
-   git clone https://github.com/your-username/react-todolist-app.git
-   
-2. **Install Dependencies:**
-   
-   ```bash
-   npm install
-   
-3.  **Run the App:**
-   
-   ```bash
-    npm start
+
+### Navigate to the Project Directory
 
