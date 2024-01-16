@@ -38,7 +38,12 @@ Provide a link to a live demo of your TodoList app or include screenshots to sho
    ```bash
    npm install
 
-4. **Test:**
+4. **Start the app**
+   
+   ```bash
+   npm start
+
+5. **Test:**
    ```bash
    nmp test TodoWraper.test.js
 
