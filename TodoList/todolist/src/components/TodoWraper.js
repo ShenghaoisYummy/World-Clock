@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import  React,{useState } from 'react'
 import { TodoForm } from './TodoForm'
 import { EditTodoForm, } from './EditTodoForm'
 
@@ -29,12 +29,8 @@ export const TodoWraper = () => {
             {...todo, isEditing:!todo.isEditing} : todo))};
 
     const editTask = (task, id) => {
-        setTodos(
-        todos.map((todo) =>
-            todo.id === id ? { ...todo, task: task, isEditing: !todo.isEditing } : todo
-        )
-        );
-    };
+        setTodos(todos.map((todo) => todo.id === id ? 
+            { ...todo, task:task, isEditing: !todo.isEditing } : todo));};
 
 
     return (
@@ -45,9 +41,7 @@ export const TodoWraper = () => {
                 todo.isEditing ? (
                 <EditTodoForm task={todo} editTodo={editTask}/>
                 ):(
-                <Todo task={todo} key={index} deleteTodo={deleteTodo} editTodo={editTodo} toggleComplete={toggleComplete} />
-                )
-            ))}
+                <Todo task={todo} key={index} deleteTodo={deleteTodo} editTodo={editTodo} toggleComplete={toggleComplete} />)))}
         </div>
 
     )
