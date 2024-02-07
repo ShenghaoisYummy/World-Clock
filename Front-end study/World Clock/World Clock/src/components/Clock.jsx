@@ -9,8 +9,9 @@ const StyledClockWrapper = styled.div`
   align-items: center;
 
   flex-direction: column;
-  background-color: ${($light, theme) =>
+  background-color: ${({ $light, theme }) =>
     $light ? theme.clockBackground.light : theme.clockBackground.dark};
+  color: ${(props) => props.color};
 
   border-radius: 16px;
   padding: 16px;
@@ -20,6 +21,7 @@ const StyledClockWrapper = styled.div`
 StyledClockWrapper.defaultProps = {
   size: "40rem",
   $light: false,
+  color: "black",
 };
 
 const Clock = (props) => {

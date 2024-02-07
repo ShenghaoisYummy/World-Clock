@@ -19,6 +19,8 @@ const backgroundImg = `linear-gradient(to bottom right, ${theme.primary} 0%, ${t
 const GlobalStyle = createGlobalStyle`
   :root{
     font-size:10px;
+  }
+
     body {
       display: flex;
       justify-content: center;
@@ -39,8 +41,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     user-select: none;
     -webkit-user-drag: none;
-  }
-}`;
+  }`;
 
 const Container = styled.div`
   display: flex;
@@ -49,7 +50,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   max-width: 1200px;
 `;
-
+console.log(theme);
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
