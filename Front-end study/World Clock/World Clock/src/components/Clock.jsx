@@ -4,6 +4,7 @@ import City from "./City";
 import Time from "./Time";
 import Pointer from "./Pointer";
 import Center from "./Center";
+import Core from "./Core";
 
 const StyledClockWrapper = styled.div`
   width: ${(props) => props.size};
@@ -79,6 +80,7 @@ const Clock = (props) => {
       <City light={light}>{city}</City>
       <Pointer light={light}>
         <Center />
+        <Core />
       </Pointer>
       <Time>
         {year}-{month}-{day} {hour}:{min}:{second}
