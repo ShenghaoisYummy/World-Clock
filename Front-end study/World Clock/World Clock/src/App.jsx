@@ -10,8 +10,8 @@ const theme = {
     light: "#eee",
   },
   clockBackground: {
-    dark: `rgba(255, 255, 255, 0.1)`,
-    light: `rgba(0, 0, 0, 0.1)`,
+    light: `rgba(255, 255, 255, 0.1)`,
+    dark: `rgba(0, 0, 0, 0.1)`,
   },
 };
 
@@ -56,9 +56,9 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Container>
-        <Clock city="sydney" timezone={11} />
-        <Clock />
-        <Clock />
+        <Clock city="Sydney" timezone={11} />
+        <Clock city="London" timezone={1} />
+        <Clock city="London" timezone={1} />
         <Clock />
       </Container>
     </ThemeProvider>
