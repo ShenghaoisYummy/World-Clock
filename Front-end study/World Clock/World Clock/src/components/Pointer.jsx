@@ -6,7 +6,7 @@ const StyledPointer = styled.div`
   width: ${({ size }) => size};
   aspect-ratio: 1/1;
   display: flex;
-  jsutify-content: center;
+  justify-content: center;
   align-items: center;
 
   background: ${(props) =>
