@@ -14,7 +14,7 @@ The World Clock application is a modern, user-friendly web app built with React 
 ![Alt text](/public/screenshot.gif)
 
 ## Demo
-https://app.netlify.com/sites/amazing-fairy-3e2210/overview
+https://amazing-fairy-3e2210.netlify.app
 
 ## Getting Started
 
