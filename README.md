@@ -10,6 +10,8 @@ The World Clock application is a modern, user-friendly web app built with React 
 - **Customizable UI:** Leveraging styled-components for a flexible and customizable user interface.
 - **Responsive Design:** Fully responsive layout that looks great on desktop, tablets, and mobile devices.
 - **Add/Remove Cities:** Users can easily add or remove cities to customize their world clock view.
+## Preview
+![Alt text](/public/screenshot.gif)
 
 ## Getting Started
 
