@@ -10,8 +10,8 @@ const theme = {
     light: "#eee",
   },
   clockBackground: {
-    dark: `rgba(255, 255, 255, 0.1)`,
-    light: `rgba(0, 0, 0, 0.1)`,
+    light: `rgba(255, 255, 255, 0.1)`,
+    dark: `rgba(0, 0, 0, 0.1)`,
   },
 };
 
@@ -19,6 +19,8 @@ const backgroundImg = `linear-gradient(to bottom right, ${theme.primary} 0%, ${t
 const GlobalStyle = createGlobalStyle`
   :root{
     font-size:10px;
+  }
+
     body {
       display: flex;
       justify-content: center;
@@ -39,8 +41,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     user-select: none;
     -webkit-user-drag: none;
-  }
-}`;
+  }`;
 
 const Container = styled.div`
   display: flex;
@@ -49,16 +50,16 @@ const Container = styled.div`
   flex-wrap: wrap;
   max-width: 1200px;
 `;
-
+console.log(theme);
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Container>
-        <Clock city="sydney" timezone={11} />
-        <Clock />
-        <Clock />
-        <Clock />
+        <Clock city="Sydney" timezone={11} />
+        <Clock city="London" timezone={1} />
+        <Clock city="New York" timezone={5} />
+        <Clock city="BeiJing" timezone={13} />
       </Container>
     </ThemeProvider>
   );
