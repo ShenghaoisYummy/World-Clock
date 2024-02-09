@@ -1,8 +1,27 @@
-# React + Vite
+# World Clock with React and Styled-Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+The World Clock application is a modern, user-friendly web app built with React and styled-components. It allows users to view the current time in various cities across the globe, making it an essential tool for remote teams, travelers, or anyone needing to keep track of different time zones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Dynamic Time Zone Display:** Shows the current time in multiple time zones.
+- **Customizable UI:** Leveraging styled-components for a flexible and customizable user interface.
+- **Responsive Design:** Fully responsive layout that looks great on desktop, tablets, and mobile devices.
+- **Add/Remove Cities:** Users can easily add or remove cities to customize their world clock view.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js (latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/world-clock-react.git
